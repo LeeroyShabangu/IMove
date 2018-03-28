@@ -3,19 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B470CA1-2FDC-4CE5-9EEC-5D6BAC91A154}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB6B91EA-3C8D-4A57-92B0-218B79CC559F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMove", "src\IMove\IMove.csproj", "{01CE094B-4988-469C-9C57-B0685B1E46BC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.DataAccess", "IMove.DataAccess\IMove.DataAccess.csproj", "{9535AB07-1E79-4DCE-9E6F-9D9F7F1CF12A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.BusinessLogic", "IMove.BusinessLogic\IMove.BusinessLogic.csproj", "{2790B938-421E-4AC8-B852-FB2AB3B86215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.API", "IMove.API\IMove.API.csproj", "{630EB2A7-79A8-4FF8-8E32-6E98BF329F7C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.UI", "IMove.UI\IMove.UI.csproj", "{0E126296-8114-4AF3-BDCE-2031D0892C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.API", "IMove.API\IMove.API.csproj", "{26992970-502C-481B-A442-41E8C99AF478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{01CE094B-4988-469C-9C57-B0685B1E46BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01CE094B-4988-469C-9C57-B0685B1E46BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01CE094B-4988-469C-9C57-B0685B1E46BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01CE094B-4988-469C-9C57-B0685B1E46BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9535AB07-1E79-4DCE-9E6F-9D9F7F1CF12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9535AB07-1E79-4DCE-9E6F-9D9F7F1CF12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9535AB07-1E79-4DCE-9E6F-9D9F7F1CF12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,20 +25,17 @@ Global
 		{2790B938-421E-4AC8-B852-FB2AB3B86215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2790B938-421E-4AC8-B852-FB2AB3B86215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2790B938-421E-4AC8-B852-FB2AB3B86215}.Release|Any CPU.Build.0 = Release|Any CPU
-		{630EB2A7-79A8-4FF8-8E32-6E98BF329F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{630EB2A7-79A8-4FF8-8E32-6E98BF329F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{630EB2A7-79A8-4FF8-8E32-6E98BF329F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{630EB2A7-79A8-4FF8-8E32-6E98BF329F7C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26992970-502C-481B-A442-41E8C99AF478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26992970-502C-481B-A442-41E8C99AF478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26992970-502C-481B-A442-41E8C99AF478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26992970-502C-481B-A442-41E8C99AF478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{01CE094B-4988-469C-9C57-B0685B1E46BC} = {9B470CA1-2FDC-4CE5-9EEC-5D6BAC91A154}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58647817-7D23-4F18-837F-71286E66A767}

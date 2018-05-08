@@ -9,7 +9,7 @@ namespace IMove.DataAccess
         public virtual DbSet<Availability> Availability { get; set; }
         public virtual DbSet<BookingDetails> BookingDetails { get; set; }
         public virtual DbSet<CarInfo> CarInfo { get; set; }
-        public virtual DbSet<Driver> Driver { get; set; }
+        public virtual DbSet<DriverDTO> Driver { get; set; }
         public virtual DbSet<User> User { get; set; }
         public virtual DbSet<VehicleCategory> VehicleCategory { get; set; }
 
@@ -108,7 +108,7 @@ namespace IMove.DataAccess
                     .HasConstraintName("FK_CarInfo_VehicleCategory");
             });
 
-            modelBuilder.Entity<Driver>(entity =>
+            modelBuilder.Entity<DriverDTO>(entity =>
             {
                 entity.Property(e => e.DriverId).HasColumnName("DriverID");
 

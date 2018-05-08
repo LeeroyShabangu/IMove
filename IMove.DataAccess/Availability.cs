@@ -12,6 +12,6 @@ namespace IMove.DataAccess
         public string DayofWeekAvailable { get; set; }
         public int? FkDriverId { get; set; }
 
-        public Driver FkDriver { get; set; }
+        public DriverDTO FkDriver { get; set; }
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace IMove.DataAccess
 {
-    public partial class Driver
+    public partial class DriverDTO
     {
-        public Driver()
+        public DriverDTO()
         {
             Availability = new HashSet<Availability>();
             BookingDetails = new HashSet<BookingDetails>();

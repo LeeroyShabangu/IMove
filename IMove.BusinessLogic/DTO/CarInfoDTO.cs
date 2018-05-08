@@ -1,9 +1,11 @@
-﻿using System;
+﻿using IMove.DataAccess;
+using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace IMove.DataAccess
+namespace IMove.BusinessLogic.DTO
 {
-    public partial class CarInfo
+    public class CarInfoDTO
     {
         public int CarInfoId { get; set; }
         public string CarMake { get; set; }
@@ -11,8 +13,7 @@ namespace IMove.DataAccess
         public int? CarYear { get; set; }
         public int? FkVehicleCategory { get; set; }
         public int? FkDriverId { get; set; }
-
         public DriverDTO FkDriver { get; set; }
-        public VehicleCategory FkVehicleCategoryNavigation { get; set; }
+        public VehicleCategoryDTO FkVehicleCategoryNavigation { get; set; }
     }
 }

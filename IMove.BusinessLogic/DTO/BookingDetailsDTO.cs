@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace IMove.DataAccess
+namespace IMove.BusinessLogic.DTO
 {
-    public partial class BookingDetails
+    public class BookingDetailsDTO
     {
         public int BookingDetailsId { get; set; }
         public DateTime? BookingDate { get; set; }
@@ -13,8 +14,7 @@ namespace IMove.DataAccess
         public int? FkDriverId { get; set; }
         public int? FkUserId { get; set; }
         public bool? IsCompleted { get; set; }
-
-        public DriverDTO FkDriver { get; set; }
-        public User FkUser { get; set; }
+        public DriverDTO driver { get; set; }
+        public UserDTO UserDTO { get; set; }
     }
 }

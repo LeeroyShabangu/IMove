@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.DataAccess", "IMove.DataAccess\IMove.DataAccess.csproj", "{9535AB07-1E79-4DCE-9E6F-9D9F7F1CF12A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMove.DataAccess", "IMove.DataAccess\IMove.DataAccess.csproj", "{9535AB07-1E79-4DCE-9E6F-9D9F7F1CF12A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.BusinessLogic", "IMove.BusinessLogic\IMove.BusinessLogic.csproj", "{2790B938-421E-4AC8-B852-FB2AB3B86215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMove.BusinessLogic", "IMove.BusinessLogic\IMove.BusinessLogic.csproj", "{2790B938-421E-4AC8-B852-FB2AB3B86215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.UI", "IMove.UI\IMove.UI.csproj", "{0E126296-8114-4AF3-BDCE-2031D0892C84}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMove.API", "IMove.API\IMove.API.csproj", "{26992970-502C-481B-A442-41E8C99AF478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMove.API", "IMove.API\IMove.API.csproj", "{26992970-502C-481B-A442-41E8C99AF478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{2790B938-421E-4AC8-B852-FB2AB3B86215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2790B938-421E-4AC8-B852-FB2AB3B86215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2790B938-421E-4AC8-B852-FB2AB3B86215}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E126296-8114-4AF3-BDCE-2031D0892C84}.Release|Any CPU.Build.0 = Release|Any CPU
 		{26992970-502C-481B-A442-41E8C99AF478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{26992970-502C-481B-A442-41E8C99AF478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26992970-502C-481B-A442-41E8C99AF478}.Release|Any CPU.ActiveCfg = Release|Any CPU

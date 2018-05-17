@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace IMove.DataAccess
 {
@@ -11,7 +12,7 @@ namespace IMove.DataAccess
             BookingDetails = new HashSet<BookingDetails>();
             CarInfo = new HashSet<CarInfo>();
         }
-
+        [Key]
         public int DriverId { get; set; }
         public string DriverName { get; set; }
         public string PhoneNumber { get; set; }

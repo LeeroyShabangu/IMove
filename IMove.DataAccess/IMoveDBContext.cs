@@ -13,16 +13,20 @@ namespace IMove.DataAccess
         public virtual DbSet<User> User { get; set; }
         public virtual DbSet<VehicleCategory> VehicleCategory { get; set; }
 
-        //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //        {
-        //            if (!optionsBuilder.IsConfigured)
-        //            {
-        //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-        //                optionsBuilder.UseSqlServer(@"Server=tcp:imoveserver.database.windows.net,1433;Initial Catalog=IMoveDB;Persist Security Info=False;User ID=lee;Password=Imoveadmin1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-        //            }
-        //        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer(@"Server=tcp:imoveserver.database.windows.net,1433;Initial Catalog=IMoveDB;Persist Security Info=False;User ID=lee;Password=Imoveadmin1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            }
+        }
         public IMoveDBContext(DbContextOptions<IMoveDBContext> options): base(options)
         { }
+
+        public IMoveDBContext()
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

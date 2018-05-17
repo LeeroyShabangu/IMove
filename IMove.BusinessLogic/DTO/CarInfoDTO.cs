@@ -11,9 +11,9 @@ namespace IMove.BusinessLogic.DTO
         public string CarMake { get; set; }
         public string CarModel { get; set; }
         public int? CarYear { get; set; }
-        public int? FkVehicleCategory { get; set; }
-        public int? FkDriverId { get; set; }
-        public DriverDTO FkDriver { get; set; }
-        public VehicleCategoryDTO FkVehicleCategoryNavigation { get; set; }
+        public int? VehicleCategoryID { get; set; }
+        public int? DriverId { get; set; }
+        public DriverDTO Driver { get; set; }
+        public VehicleCategoryDTO VehicleCategory { get; set; }
     }
 }

@@ -17,8 +17,8 @@ namespace IMove.BusinessLogic.Interface
 
         public void AddCar(CarInfoDTO carinfo)
         {
-            var driver = _imovedb.Driver.Find(carinfo.FkDriverId);
-            var vehiclecat = _imovedb.VehicleCategory.Find(carinfo.FkVehicleCategory);
+            var driver = _imovedb.Driver.Find(carinfo.DriverId);
+            var vehiclecat = _imovedb.VehicleCategory.Find(carinfo.VehicleCategoryID);
 
             var car = new DataAccess.CarInfo
             {

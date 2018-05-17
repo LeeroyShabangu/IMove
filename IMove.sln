@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B470CA1-2FDC-4CE5-9EEC-5D6BAC91A154}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB6B91EA-3C8D-4A57-92B0-218B79CC559F}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IMove", "src\IMove\IMove.xproj", "{01CE094B-4988-469C-9C57-B0685B1E46BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMove", "src\IMove\IMove.csproj", "{01CE094B-4988-469C-9C57-B0685B1E46BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01CE094B-4988-469C-9C57-B0685B1E46BC} = {9B470CA1-2FDC-4CE5-9EEC-5D6BAC91A154}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4138227D-92C4-48FA-BD87-4D1E48662A34}
 	EndGlobalSection
 EndGlobal
